@@ -162,12 +162,12 @@ function initScrollAnimations() {
     });
 
     // Stagger grids
-    document.querySelectorAll('.occasions-grid, .garments-grid, .process-grid, .testimonials-grid, .faq-home-grid').forEach(el => {
+    document.querySelectorAll('.occasions-grid, .garments-grid, .process-grid, .testimonials-grid, .faq-home-grid, .inspiration-grid').forEach(el => {
         el.classList.add('stagger-children');
     });
 
     // Cards with scale
-    document.querySelectorAll('.occasion-card, .garment-category, .testimonial-card, .faq-home-item').forEach((el, index) => {
+    document.querySelectorAll('.occasion-card, .garment-category, .testimonial-card, .faq-home-item, .inspiration-item').forEach((el, index) => {
         el.classList.add('animate-scale');
         el.style.transitionDelay = `${index * 0.08}s`;
     });
