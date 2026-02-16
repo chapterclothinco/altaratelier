@@ -64,6 +64,7 @@ export default function Navbar() {
           </a>
           <div className="nav-links">
             <a href="#occasions">Collections</a>
+            <a href="/catalog">Catalog</a>
             <a href="#process">Process</a>
             <a href="#faq">FAQ</a>
             <a href="#contact">Contact</a>
@@ -86,6 +87,7 @@ export default function Navbar() {
       <div className={`mobile-menu${menuOpen ? ' active' : ''}`} ref={mobileMenuRef}>
         <div className="mobile-menu-links">
           <a href="#occasions" onClick={closeMenu}>Collections</a>
+          <a href="/catalog" onClick={closeMenu}>Catalog</a>
           <a href="#process" onClick={closeMenu}>Process</a>
           <a href="#faq" onClick={closeMenu}>FAQ</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>

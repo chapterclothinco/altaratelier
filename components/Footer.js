@@ -23,6 +23,7 @@ export default function Footer() {
             <div className="footer-column">
               <h4>Navigate</h4>
               <a href="#occasions">Collections</a>
+              <a href="/catalog">Catalog</a>
               <a href="#garments">What We Create</a>
               <a href="#process">Process</a>
               <a href="#faq">FAQ</a>
