@@ -4,20 +4,20 @@
    ================================ */
 
 :root {
-    /* Wedding Color Palette - Enhanced */
-    --champagne: #F5E6D3;
-    --blush: #FAE8E0;
-    --rose-gold: #B76E79;
-    --rose-gold-light: #c4878f;
-    --rose-gold-dark: #9a5a63;
-    --rose-gold-bg: #fdf5f6;
-    --ivory: #FFFEF9;
-    --whisper-gray: #F8F7F5;
-    --sage: #9CAF88;
-    --dusty-mauve: #C9A9A6;
-    --warm-taupe: #A89F91;
-    --soft-gold: #D4AF37;
-    --burgundy: #722F37;
+    /* Wedding Color Palette - Baby Blue & Refined */
+    --champagne: #D6E4EE;
+    --blush: #EDF3F8;
+    --rose-gold: #7BA7C9;
+    --rose-gold-light: #9BBDD6;
+    --rose-gold-dark: #5C8DB0;
+    --rose-gold-bg: #F5F8FB;
+    --ivory: #FAFCFD;
+    --whisper-gray: #F2F5F8;
+    --sage: #8A9A7E;
+    --dusty-mauve: #A3B3C0;
+    --warm-taupe: #8A9EAD;
+    --soft-gold: #C9A962;
+    --burgundy: #3D6B8A;
 
     /* Neutrals - Darker for better readability */
     --black: #1a1a1a;
@@ -121,7 +121,7 @@ h1, h2, h3 {
 }
 
 .navbar.scrolled {
-    box-shadow: 0 4px 30px rgba(183, 110, 121, 0.08);
+    box-shadow: 0 4px 30px rgba(123, 167, 201, 0.08);
     padding: 12px 0;
     background: rgba(255, 254, 249, 0.98);
 }
@@ -224,7 +224,7 @@ h1, h2, h3 {
     background: var(--rose-gold-dark);
     border-color: var(--rose-gold-dark);
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(183, 110, 121, 0.3);
+    box-shadow: 0 8px 25px rgba(123, 167, 201, 0.3);
 }
 
 /* Mobile Menu */
@@ -473,7 +473,7 @@ h1, h2, h3 {
     background: var(--rose-gold-dark);
     border-color: var(--rose-gold-dark);
     transform: translateY(-2px);
-    box-shadow: 0 12px 35px rgba(183, 110, 121, 0.25);
+    box-shadow: 0 12px 35px rgba(123, 167, 201, 0.25);
 }
 
 .btn-secondary {
@@ -539,7 +539,7 @@ h1, h2, h3 {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNjAnIGhlaWdodD0nNjAnIHZpZXdCb3g9JzAgMCA2MCA2MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48ZyBmaWxsPSdub25lJyBmaWxsLXJ1bGU9J2V2ZW5vZGQnPjxnIGZpbGw9JyNCNzZFNzknIGZpbGwtb3BhY2l0eT0nMC4wMyc+PHBhdGggZD0nTTM2IDM0di00aC0ydjRoLTR2Mmg0djRoMnYtNGg0di0yaC00em0wLTMwVjBoLTJ2NGgtNHYyaDR2NGgyVjZoNFY0aC00ek02IDM0di00SDR2NEgwdjJoNHY0aDJ2LTRoNHYtMkg2ek02IDRWMEI0djRIMHYyaDR2NGgyVjZoNFY0SDZ6Jy8+PC9nPjwvZz48L3N2Zz4=");
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNjAnIGhlaWdodD0nNjAnIHZpZXdCb3g9JzAgMCA2MCA2MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48ZyBmaWxsPSdub25lJyBmaWxsLXJ1bGU9J2V2ZW5vZGQnPjxnIGZpbGw9JyM3QkE3QzknIGZpbGwtb3BhY2l0eT0nMC4wMyc+PHBhdGggZD0nTTM2IDM0di00aC0ydjRoLTR2Mmg0djRoMnYtNGg0di0yaC00em0wLTMwVjBoLTJ2NGgtNHYyaDR2NGgyVjZoNFY0aC00ek02IDM0di00SDR2NEgwdjJoNHY0aDJ2LTRoNHYtMkg2ek02IDRWMEI0djRIMHYyaDR2NGgyVjZoNFY0SDZ6Jy8+PC9nPjwvZz48L3N2Zz4=");
     pointer-events: none;
     z-index: 0;
 }
@@ -621,7 +621,7 @@ h1, h2, h3 {
 .occasion-card:hover {
     border-color: var(--rose-gold);
     transform: translateY(-4px);
-    box-shadow: 0 20px 40px rgba(183, 110, 121, 0.12);
+    box-shadow: 0 20px 40px rgba(123, 167, 201, 0.12);
 }
 
 .occasion-icon {
@@ -718,7 +718,7 @@ h1, h2, h3 {
 
 .garment-category:hover {
     border-color: var(--rose-gold);
-    box-shadow: 0 10px 30px rgba(183, 110, 121, 0.08);
+    box-shadow: 0 10px 30px rgba(123, 167, 201, 0.08);
 }
 
 .garment-category h3 {
@@ -853,7 +853,7 @@ h1, h2, h3 {
 
 .testimonial-card:hover {
     border-color: var(--rose-gold);
-    box-shadow: 0 15px 40px rgba(183, 110, 121, 0.1);
+    box-shadow: 0 15px 40px rgba(123, 167, 201, 0.1);
 }
 
 .testimonial-content {
@@ -964,7 +964,7 @@ h1, h2, h3 {
 .inspiration-item:hover {
     border-color: var(--rose-gold);
     transform: translateY(-4px);
-    box-shadow: 0 20px 40px rgba(183, 110, 121, 0.15);
+    box-shadow: 0 20px 40px rgba(123, 167, 201, 0.15);
 }
 
 .inspiration-item::before {
@@ -1099,7 +1099,7 @@ h1, h2, h3 {
 
 .faq-home-item:hover {
     border-color: var(--rose-gold);
-    box-shadow: 0 8px 25px rgba(183, 110, 121, 0.08);
+    box-shadow: 0 8px 25px rgba(123, 167, 201, 0.08);
 }
 
 .faq-home-item h4 {
@@ -1523,7 +1523,7 @@ h1, h2, h3 {
 .catalog-search:focus {
     outline: none;
     border-color: var(--rose-gold);
-    box-shadow: 0 0 0 3px rgba(183, 110, 121, 0.08);
+    box-shadow: 0 0 0 3px rgba(123, 167, 201, 0.08);
     width: 240px;
 }
 
@@ -1561,7 +1561,7 @@ h1, h2, h3 {
 .catalog-product-card:hover {
     border-color: var(--rose-gold);
     transform: translateY(-4px);
-    box-shadow: 0 20px 40px rgba(183, 110, 121, 0.12);
+    box-shadow: 0 20px 40px rgba(123, 167, 201, 0.12);
 }
 
 /* Card Illustration / Image Area */
@@ -1625,9 +1625,9 @@ h1, h2, h3 {
 }
 
 .catalog-card-badge.signature {
-    background: rgba(183, 110, 121, 0.1);
+    background: rgba(123, 167, 201, 0.1);
     color: var(--rose-gold);
-    border: 1px solid rgba(183, 110, 121, 0.25);
+    border: 1px solid rgba(123, 167, 201, 0.25);
 }
 
 .catalog-card-badge.premium {
